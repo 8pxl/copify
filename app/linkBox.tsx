@@ -1,5 +1,4 @@
 import {Input} from "@/components/ui/input";
-import {answer} from "@/app/answer";
  
 type LinkBoxProps = {
     action: (formData: FormData) => Promise<void>;

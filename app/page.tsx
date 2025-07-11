@@ -1,13 +1,17 @@
 "use client";
 import {LinkBox} from "@/app/linkBox"
-import { useRouter } from "next/router";
 import {useState} from 'react';
 import { answer } from "./answer";
 import { Button } from "@/components/ui/button"
 import { CopyIcon } from "@/app/icon/copy"
 // import {Input} from "@/components/ui/input";
 
-function HalfWrapper({children, css}: any) {
+type HalfWrapperProps = {
+  children: React.ReactNode;
+  css?: string;
+};
+
+function HalfWrapper({children, css} : HalfWrapperProps) {
   return(
     <div className={"w-[50%] " + css}>
       {children}
@@ -24,7 +28,7 @@ export default function Home() {
           copify
         </div>
         <div className="font-space font-bold text-gray-600 w-screen justify-center flex m-4">
-          a spotify title/artist copier-fy-er
+          a simple way to copy title/artists from spotify songs (cause for some reason you can&apos;t do it in spotify)
         </div>
         <div className={"w-screen absolute top-1/2 flex content-center flex-col items-center gap-2"}>
           <HalfWrapper>
@@ -37,7 +41,6 @@ export default function Home() {
             }}
             />
           </HalfWrapper>
-            
             
           <HalfWrapper css={"duration-300 ease-out text-gray-300 flex items-center justify-between " + (hidden ? "pre-anim" : "")}>
             {/* <LinkBox/> */}
