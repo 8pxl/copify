@@ -28,7 +28,9 @@ export default function Home() {
           copify
         </div>
         <div className="font-space font-bold text-gray-600 w-screen justify-center flex m-4">
-          a simple way to copy title/artists from spotify songs (cause for some reason you can&apos;t do it in spotify)
+          <div className="w-[60%]">
+            a simple way to copy title/artists from spotify songs (cause for some reason you can&apos;t do it in spotify)
+          </div>
         </div>
         <div className={"w-screen absolute top-1/2 flex content-center flex-col items-center gap-2"}>
           <HalfWrapper>

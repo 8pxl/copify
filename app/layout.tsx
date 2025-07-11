@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "copify",
-  description: "copy spotify song names!",
+  title: "Copify - Easy Spotify Song Name Copy Tool",
+  description: "Easily copy Spotify song names, track titles, and artist names. A simple tool to copy text from Spotify songs that you can't normally copy.",
+  keywords: "copy spotify song name, how to copy name of spotify track, how to copy song artist spotify, spotify song copy, spotify track name copy",
 };
 
 export default function RootLayout({
