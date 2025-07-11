@@ -23,6 +23,9 @@ export default function Home() {
         <div className="font-space font-bold text-gray-300 text-4xl w-screen justify-center flex m-4">
           copify
         </div>
+        <div className="font-space font-bold text-gray-600 w-screen justify-center flex m-4">
+          a spotify title/artist copier-fy-er
+        </div>
         <div className={"w-screen absolute top-1/2 flex content-center flex-col items-center gap-2"}>
           <HalfWrapper>
             <LinkBox
